@@ -12,7 +12,7 @@ const port = 3001;
 app.use(cors());
 
 // 2. Создаем наш первый API-маршрут (endpoint)
-app.get('/api/btcusd', (req, res) => {
+app.get('/api/test', (req, res) => {
   // Лог в консоль бэкенда (ты увидишь это в терминале)
   console.log('GET /api/test - Запрос получен!');
 
